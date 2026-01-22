@@ -36,13 +36,15 @@ System.out.println("def val of short is:"+t.s);
 <img width="476" height="496" alt="Screenshot 2026-01-21 205945" src="https://github.com/user-attachments/assets/03060543-31f5-4c1a-87ad-21b8817d2b0f" />
 
 
-EXPERIMENT 1
 
-EXPERIMENT 1B
+## EXPERIMENT 1B
 
-TITLE: Display the Quadratic Equations
+## TITLE: Display the Quadratic Equations
 
-SOURCE CODE: Quadratic Equations
+---
+
+## SOURCE CODE: Quadratic Equations
+
 ```
 import java.util.Scanner;
 public class quad
@@ -80,11 +82,10 @@ System.out.println("root2:" + realpart + "-" + imaginarypart + "i");
 }
 }
 }
+```
 
----
 
-
-#OUTPUT
+## OUTPUT
 <img width="1920" height="1200" alt="Screenshot 2025-12-20 154240" src="https://github.com/user-attachments/assets/331bc3a9-e8ea-4f80-b5fb-fd4bce7f7edb" />
 
 
