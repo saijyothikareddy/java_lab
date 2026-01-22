@@ -33,9 +33,4 @@ System.out.println("def val of short is:"+t.s);
 }
 ```
 ## output
-<img width="476" height="496" alt="Screenshot 2026-01-21 205945" src="https://github.com/user-attachments/assets/7a3134c0-7bab-4c0b-ae85-10c686d6b879" />
-
-
-
-##
-````
+<img width="476" height="496" alt="Screenshot 2026-01-21 205945" src="https://github.com/user-attachments/assets/7a3134c0-7bab-4c0b-ae85-10c686d6b879"
