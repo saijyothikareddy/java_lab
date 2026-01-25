@@ -1,0 +1,47 @@
+## Additional Experiment 1
+
+## TITLE: Dispaly SubString to mainString
+
+---
+
+## SOURCE CODE: SubString to mainString
+
+```
+import java.util.Scanner;
+
+public class StringInsert {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+      
+        System.out.print("Enter the main string: ");
+        String mainString = sc.nextLine();
+
+        
+        System.out.print("Enter the substring to insert: ");
+        String subString = sc.nextLine();
+
+        
+        System.out.print("Enter the position to insert (0-based index): ");
+        int position = sc.nextInt();
+
+        
+        if (position < 0 || position > mainString.length()) {
+            System.out.println("Invalid position!");
+        } else {
+            
+            String result = mainString.substring(0, position)
+                    + subString
+                    + mainString.substring(position);
+
+            System.out.println("Resulting string: " + result);
+        }
+
+        sc.close();
+    }
+}
+```
+## output
+<img width="654" height="426" alt="Screenshot 2026-01-23 153419" src="https://github.com/user-attachments/assets/7d34cd2e-10a5-48df-b4db-1c374125e803" />
+
+
